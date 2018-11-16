@@ -21,7 +21,7 @@ int main()
 
  int mediator=0;
  ss<<std::hex;
- for(const char &inputc:*input){
+ for(const char &inputc:input){
   mediator=inputc;
   ss<<mediator;
  }
